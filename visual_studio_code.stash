@@ -1,0 +1,474 @@
+# <#>Visual Studio Code<> SpeedSheet
+<b>What you need, faster.<>
+
+
+# Summary
+
+
+### Official Site
+<l>https://code.visualstudio.com/<>
+
+
+### Official Docs
+<l>https://code.visualstudio.com/docs<>
+
+
+### Extension Marketplace
+<l>https://marketplace.visualstudio.com/VSCode<>
+
+
+### Extension Marketplace - Most Popular
+<l>https://marketplace.visualstudio.com/search?target=VSCode&category=All%20categories&sortBy=Installs<>
+
+
+# Short Cuts (Mac)
+
+
+### Auto Complete - Activate
+
+<cb>Control ^ + Space<>
+
+
+
+### Auto Complete - Select
+
+<cb>Tab<>
+
+
+
+### Command Pallet
+
+<cb>Command ⌘ + Shift + P<>
+
+
+
+### Cursor - Multi Select
+
+<cb>Option ⌥ + Click<>
+
+
+
+### Cursor - Multi Select Selection
+
+<cb>Option ⌥ + Shift + I<>
+
+
+
+### Cursor - Musti Select All Matches
+
+<cb>Command ⌘ + Shift + L<>
+
+
+
+### File - Goto	
+
+<cb>Command ⌘ + P<>
+
+
+
+### File - Search Contents	
+
+<cb>Command ⌘ + Shift + F<>
+
+
+
+### Goto - Definition
+
+<cb>F12<>
+@
+@ move to function method
+
+
+
+### Goto - Previous Position
+
+<cb>Control ^ + -<>
+@
+@ move to
+
+
+
+### Selection - Toggle Comment	
+
+<cb>Command ⌘ + /<>
+
+
+
+### Selection - Multi Select	
+
+See: Cursor - Multi Select Selection
+
+
+
+### Terminal - Toggle	
+
+<cb>Control ^ + `			<#>#1<><>
+
+\#1  <s>-<>  ` Key (Back Tick) (top left)
+
+
+
+# Short Cuts (Windows)
+
+
+
+### Auto Complete - Activate
+
+<cb>Control ^ + Space<>
+
+
+
+### Auto Complete - Select
+
+<cb>Tab<>
+
+
+
+### Cursor - Multi Select
+
+<cb>Alt + Click<>
+
+
+
+### Cursor - Multi Select Selection
+
+<cb>Alt + Shift + I<>
+
+
+
+### Cursor - Musti Select All Matches
+
+<cb>Command ⌘ + Shift + L<>
+
+
+
+# How To
+
+
+
+### Command Line - Enable
+
+Command Pallet
+		Enter: 'code'
+		Select: 'Shell Command: Install 'code' command in PATH'
+
+
+
+### Command Line - Run
+
+<cb>code <v>path<><>
+
+Example
+
+<cb>code .<>
+
+
+
+### Expand - Html File
+
+Type: html
+		Select: html:5
+		Tab
+
+
+### Explorer Window - Indent
+
+Code -> Preferences -> Settings
+Search: workbench.tree
+Enter pixel value.
+
+
+
+### Extension - Install
+
+Select The Extension Icon (Left Nav Bar)
+
+<image "Icon - Extensions.png">
+
+Enter extension name.
+
+For Website:
+Enter url into Search Box
+@
+@ Plugins, extensions
+
+
+
+### File - Keep Open In Tab
+
+<cb>Double Click Tab<>
+
+or
+
+<cb>Double Click File Name (In Sidebar)<>
+
+
+
+### File - Preview Mode
+
+Click File Name (In Sidebar)
+	Tab Name Will Show In Italics
+
+Click Next File
+	File Will Be Replaced In Tab
+
+
+
+### Methods, Functions - Show Outline / Summary
+
+Windows / Linux
+
+<cb>CTRL + Shift + O<>
+
+Mac:
+
+<cb>?<>
+
+Or
+
+Open Explorer (Left Nav, Files Icon)
+Expand 'Outline'
+@
+@ methods, functions
+
+
+
+### Methods, Functions - Search
+
+Windows / Linux
+
+<cb>CTRL + Shift + O<>
+
+Mac:
+
+<cb>Command ⌘ + Shift + O<>
+@
+@ methods, functions
+
+
+
+### Python - Set Root Directory
+
+<!>Didn't work. Need to tinker<>
+
+Source:
+<l>https://stackoverflow.com/questions/50089498/how-to-set-the-root-directory-for-visual-studio-code-python-extension<>
+
+Create .env File:
+
+<cb>/.env<>
+
+Content:
+
+<cb>PYTHON_PATH=server<>
+
+
+Create in the python root folder.
+
+
+
+# Index -  Plugins
+
+
+
+### Plugin - Bracket Pair Colorizer
+
+<l>https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2<>
+
+Colorizer paired brackets so they can be easily found.
+
+
+
+### Plugin - Diagrams (SVG)
+
+<l>https://github.com/hediet/vscode-drawio<>
+
+
+
+#### Plugin - Diagrams - Commands
+
+
+
+##### Diagrams - Create
+
+Create File with extension .drawio
+
+
+
+### Plugin - File Utils	
+
+Command	File: Duplicate
+
+
+
+### Plugin - Prettier
+
+Formatting
+
+
+
+### Plugin - Live Server
+
+Shows Html Page In A Browser
+Refreshes The Browser When The File Changes.
+
+
+Port 5500 (default):		<l>http://127.0.0.1:5500<>
+
+
+By: Ritwick Dey
+@
+@ Go Live, Refresh, Reload, Browser
+
+
+#### Live Server - Start
+
+On Status Bar (Bottom)
+Click "Go Live"
+
+Page opens up automatically in the browser.
+
+
+#### Live Server - Stop
+
+On Status Bar (Bottom)
+Click " ⃠ Port : 5500"
+
+
+
+### Plugin - React / Simple React Snippets
+
+
+
+### Plugin - Sublime KeyMappings
+
+Maps keys to Sublime.
+
+
+
+# Snippets
+
+
+
+## Snippet - HTML
+
+
+
+### Html Snippet - New Page
+
+<cb>html:5<>
+
+Creates a default page with all the sections.
+
+
+
+### Html Snippet - Div	
+
+<cb>div.<v>class_name<><>
+
+<cb>div#<v>id-name<><>
+
+<cb>div#<v>id-name<>.<v>class_name<><>
+
+
+Expands To:
+
+
+<cb>\<div class="<v>class-name<>">\</div><>
+
+<cb>\<div id="<v>id-name<>">\</div><>
+
+<cb>\<div id="<v>id-name<> class="<v>class-name<>">\</div><>
+
+
+
+### Html Snippet - Label
+
+<cb>label.<v>class_name<><>
+
+
+Expands To:
+
+
+<cb>\<label for="" class="<v>label-name<>">\</label><>
+
+
+
+## Snippets - Vue
+
+
+### Vue Snippet - New
+
+<cb>vbase<>
+
+
+Creates a default component with all 3 main sections.
+
+
+### Vue Snippet - Compute
+
+<cb>vcomputed<>
+
+
+
+### Vue Snippet - Data
+
+<cb>vdata<>
+
+
+
+### Vue Snippet - Filter
+
+<cb>vfilter<>
+
+
+
+### Vue Snippet - Property
+
+<cb>vProps<>
+
+
+
+### Vue Snippet - Router Link
+
+<cb>vroutename<>
+
+<cb>vroutenameparam<>
+
+
+### Vue Snippet - Router Path
+
+<cb>vroutepath<>
+
+
+# Glossary
+
+
+
+## Acronyms
+
+
+
+### VS
+Visual Studio
+
+
+
+### VSC
+Visual Studio Code
+
+
+
+### WSL
+Windows Subsystem for Linux
+
+
+
+## Terms
+
+
+
+### Windows Subsystem for Linux
+Allows Visual Studio Code to program a remote Unix server from a Windows machine.
+
+
