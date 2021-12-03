@@ -76,7 +76,7 @@
 
 <cb>F12<>
 @
-@ move to function method
+@ move to function method, jump to
 
 
 
@@ -84,7 +84,7 @@
 
 <cb>Control ^ + -<>
 @
-@ move to
+@ move to, jump to
 
 
 
